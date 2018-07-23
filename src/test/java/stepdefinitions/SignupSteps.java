@@ -1,7 +1,10 @@
 package stepdefinitions;
 
 import cucumber.api.PendingException;
-import cucumber.api.java8.En;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 
 public class SignupSteps {
 
@@ -53,5 +56,10 @@ public class SignupSteps {
     @Then("^user account page is opened$")
     public void userAccountPageIsOpened() throws Throwable {
         System.out.println("ACCOUNT CREATED!");
+    }
+
+    @And("^I select final Sign up button$")
+    public void iSelectFinalSignUpButton() throws Throwable {
+        selectFinalSignUpButton();
     }
 }
