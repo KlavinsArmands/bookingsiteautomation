@@ -1,6 +1,8 @@
 package general;
 
 
+
+
 import lombok.Data;
 
 import static utils.RandomGenerator.*;
@@ -14,11 +16,12 @@ public class User {
     private String emailAddress;
     private String password;
 
+
     public User() {
         this.firstName = generateRandomString();
         this.lastName = generateRandomString();
         this.mobileNumber  = generateRandomPhoneNumber();
-        this.emailAddress = generateRandomEmail());
+        this.emailAddress = generateRandomEmail();
         this.password = generateRandomString();
     }
 

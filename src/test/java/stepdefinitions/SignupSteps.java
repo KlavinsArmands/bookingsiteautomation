@@ -15,32 +15,32 @@ public class SignupSteps {
 
     @And("^I enter First name$")
     public void iEnterFirstName() throws Throwable {
-        signup.enterFirstName(user.);
+        signup.enterFirstName(user.getFirstName());
     }
 
     @And("^I enter Last name$")
     public void iEnterLastName() throws Throwable {
-        signup.enterLastName(user.);
+        signup.enterLastName(user.getLastName());
     }
 
     @And("^I enter Mobile number$")
     public void iEnterMobileNumber() throws Throwable {
-        signup.enterMobileNumber(generateRandomPhoneNumber());
+        signup.enterMobileNumber(user.getMobileNumber());
     }
 
     @And("^I enter Email address$")
     public void iEnterEmailAddress() throws Throwable {
-        signup.enterEmail(generateRandomEmail());
+        signup.enterEmail(user.getEmailAddress());
     }
 
     @And("^I enter Password$")
     public void iEnterPassword() throws Throwable {
-        signup.enterPassword(generateRandomString());
+        signup.enterPassword(user.getPassword());
     }
 
     @And("^I confirm Password$")
     public void iConfirmPassword() throws Throwable {
-        signup.enterConfirmPassword(generateRandomString());
+        signup.enterConfirmPassword(user.getPassword());
     }
 
 }
