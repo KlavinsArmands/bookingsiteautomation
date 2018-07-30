@@ -10,7 +10,7 @@ Feature: This feature is about creating new account in the system
       And I enter Email address
       And I enter Password
       And I confirm Password
-      And I select final Sign up button
+      And I select Sign up button in Sign up page
     Then user account page is opened
 
 
@@ -19,5 +19,5 @@ Feature: This feature is about creating new account in the system
     Given I have opened homepage
     When I select My account menu
     And I select Sign up button
-    And I select final Sign up button
+    And I select Sign up button in Sign up page
     Then user account page is opened

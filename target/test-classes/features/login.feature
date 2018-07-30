@@ -2,6 +2,9 @@ Feature: This feature is about logging in into the system
 
   Scenario: Successful login
     Given I have opened homepage
+    And I navigate to Signup page
+    And I create new account
+    And I select logout
     When I select My account menu
     And I select Login button
     And I enter login Email address
@@ -9,9 +12,3 @@ Feature: This feature is about logging in into the system
     And I select final Login button
     Then user account page is opened
 
-  Scenario: Unsuccessful login
-    Given I have opened homepage
-    When I select My account menu
-    And I select Login button
-    And I select final Login button
-    Then user account page is opened

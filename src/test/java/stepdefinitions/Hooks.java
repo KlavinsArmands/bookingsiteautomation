@@ -5,7 +5,7 @@ import cucumber.api.java.Before;
 
 import static com.codeborne.selenide.Selenide.close;
 import static com.codeborne.selenide.Selenide.open;
-import static org.openqa.selenium.remote.BrowserType.CHROME;
+import static com.codeborne.selenide.WebDriverRunner.CHROME;
 
 public class Hooks {
 
