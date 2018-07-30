@@ -56,8 +56,8 @@ public class SignUpPageObject {
         getPasswordField().sendKeys(password);
     }
 
-    public void enterConfirmPassword(String confirmpassword){
-        getConfirmPasswordField().sendKeys(confirmpassword);
+    public void enterConfirmPassword(String password){
+        getConfirmPasswordField().sendKeys(password);
     }
 
     public AccountPageObject selectSignUpButton(){
