@@ -3,35 +3,39 @@ package stepdefinitions;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
-import pages.header.NavigationPageObject;
+import general.TestContext;
 
 public class HomepageSteps {
 
-    private NavigationPageObject homepage = new NavigationPageObject();
+    private TestContext test;
+
+    public HomepageSteps(TestContext testContext) {
+        this.test = testContext;
+    }
 
     @Given("^I have opened homepage$")
-    public void iHaveOpenedHomepage() throws Throwable {
+    public void iHaveOpenedHomepage() {
         System.out.println("Navigation is visible");
     }
 
     @When("^I select My account menu$")
-    public void iSelectMyAccountMenu() throws Throwable {
-        homepage.selectMyAccountButton();
+    public void iSelectMyAccountMenu() {
+        test.getNavigation().selectMyAccountButton();
     }
 
 
     @And("^I select Sign up button$")
-    public void iSelectSignUpButton() throws Throwable {
-        homepage.selectSignUpButton();
+    public void iSelectSignUpButton() {
+        test.getNavigation().selectSignUpButton();
     }
 
     @And("^I select Login button$")
-    public void iSelectLoginButton() throws Throwable {
-        homepage.selectLoginButton();
+    public void iSelectLoginButton() {
+        test.getNavigation().selectLoginButton();
     }
 
     @And("^I navigate to Signup page$")
-    public void iNavigateToSignUpPage() throws Throwable {
+    public void iNavigateToSignUpPage() {
         iHaveOpenedHomepage();
         iSelectMyAccountMenu();
         iSelectSignUpButton();

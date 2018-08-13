@@ -8,15 +8,15 @@ import static com.codeborne.selenide.Selenide.page;
 
 public class LoginPageObject {
     private SelenideElement getEmailAddress() {
-        return $("test");
+        return $("input[name = 'username']");
     }
 
     private SelenideElement getLoginPassword() {
-        return $("test");
+        return $("input[name = 'password']");
     }
 
     private SelenideElement getFinalLoginButton() {
-        return $("test");
+        return $(".btn-lg");
     }
 
     public void enterEmailAddress(String emailAddress){
