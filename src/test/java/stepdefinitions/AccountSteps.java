@@ -2,21 +2,29 @@ package stepdefinitions;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
-import pages.header.NavigationPageObject;
+import general.TestContext;
 
 public class AccountSteps {
 
-    private NavigationPageObject navigate = new NavigationPageObject();
+    private TestContext test;
+
+    public AccountSteps(TestContext testContext){
+        this.test = testContext;
+    }
 
     @Then("^user account page is opened$")
-    public void userAccountPageIsOpened() throws Throwable {
+    public void userAccountPageIsOpened() {
         System.out.println("ACCOUNT CREATED!");
     }
 
     @And("^I select logout$")
     public void iSelectLogout() {
-        navigate.selectLogoutButton();
+        test.getNavigation().selectLogoutButton();
     }
 
 
+    @And("^I select User Account button$")
+    public void iSelectUserAccountButton() {
+        test.getNavigation().selectUserAccountButton(test.getUser().getFirstName());
+    }
 }

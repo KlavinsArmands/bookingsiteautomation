@@ -1,5 +1,6 @@
 Feature: This feature is about creating new account in the system
 
+
   Scenario: Successful sign-up
     Given I have opened homepage
     When I select My account menu

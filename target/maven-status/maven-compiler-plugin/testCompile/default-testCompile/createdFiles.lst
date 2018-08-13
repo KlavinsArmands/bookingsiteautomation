@@ -1,6 +1,0 @@
-testrunner\TestRunner.class
-stepdefinitions\LoginSteps.class
-stepdefinitions\Hooks.class
-stepdefinitions\AccountSteps.class
-stepdefinitions\SignupSteps.class
-stepdefinitions\HomepageSteps.class
