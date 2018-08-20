@@ -34,6 +34,7 @@ public class HomepageSteps {
         test.getNavigation().selectLoginButton();
     }
 
+
     @And("^I navigate to Signup page$")
     public void iNavigateToSignUpPage() {
         iHaveOpenedHomepage();

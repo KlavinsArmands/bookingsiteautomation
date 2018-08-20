@@ -33,6 +33,10 @@ public class NavigationPageObject {
         return $(By.xpath("//nav/descendant::a[contains(text(), '" + username +  "')]"));
     }
 
+    private SelenideElement getHomeButton() {
+        return $(By.xpath("//*[@id='collapse']/ul[1]/li[1]/a"));
+    }
+
     public void selectMyAccountButton(){
         getMyAccountButton().click();
     }
@@ -54,6 +58,12 @@ public class NavigationPageObject {
 
     public AccountPageObject selectUserAccountButton(String username) {
         getUserAccountButton(username).click();
+        return page(AccountPageObject.class);
+    }
+
+    public AccountPageObject selectHomeButton() throws InterruptedException {
+        Thread.sleep(1000);
+        getHomeButton().click();
         return page(AccountPageObject.class);
     }
 
