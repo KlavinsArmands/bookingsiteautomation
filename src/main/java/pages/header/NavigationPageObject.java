@@ -1,5 +1,7 @@
 package pages.header;
 
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 import pages.account.AccountPageObject;
@@ -37,6 +39,14 @@ public class NavigationPageObject {
         return $(By.xpath("//*[@id='collapse']/ul[1]/li[1]/a"));
     }
 
+    private SelenideElement getLogoImageLocation() {
+        return $(".navbar-brand img");
+    }
+
+    private SelenideElement getLoadingIndicator() {
+        return $(By.id("preloader"));
+    }
+
     public void selectMyAccountButton(){
         getMyAccountButton().click();
     }
@@ -65,6 +75,18 @@ public class NavigationPageObject {
         Thread.sleep(1000);
         getHomeButton().click();
         return page(AccountPageObject.class);
+    }
+
+    public boolean isLogoVisible() {
+        return getLogoImageLocation().isDisplayed();
+    }
+
+    public boolean isMyAccountButtonVisible () {
+        return getMyAccountButton().isDisplayed();
+    }
+
+    public void waitUntilPageLoadingIsFinished() {
+        getLoadingIndicator().waitUntil(Condition.attribute("style", "display: none;"),5000);
     }
 
 }

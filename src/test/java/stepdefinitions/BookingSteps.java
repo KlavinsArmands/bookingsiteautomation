@@ -68,4 +68,18 @@ public class BookingSteps {
         System.out.println("INVOICE IS SENT TO YOUR MAIL. PLEASE FOLLOW THE INSTRUCTIONS.");
     }
 
+    @And("^Hotel details page is opened$")
+    public void hotelDetailsPageIsOpened() {
+        test.getNavigation().waitUntilPageLoadingIsFinished();
+    }
+
+    @And("^Hotel details are correct$")
+    public void hotelDetailsAreCorrect() {
+
+    }
+
+    @And("^Booking confirmation page is opened$")
+    public void bookingConfirmationPageIsOpened() {
+        test.getNavigation().waitUntilPageLoadingIsFinished();
+    }
 }

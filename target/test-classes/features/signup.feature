@@ -5,6 +5,7 @@ Feature: This feature is about creating new account in the system
     Given I have opened homepage
     When I select My account menu
       And I select Sign up button
+      And Sign Up page is opened
       And I enter First name
       And I enter Last name
       And I enter Mobile number
@@ -20,5 +21,7 @@ Feature: This feature is about creating new account in the system
     Given I have opened homepage
     When I select My account menu
     And I select Sign up button
+    And Sign Up page is opened
     And I select Sign up button in Sign up page
-    Then user account page is opened
+    Then error messages are displayed
+    And Sign Up page is opened

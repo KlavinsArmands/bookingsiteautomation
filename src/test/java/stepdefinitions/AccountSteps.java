@@ -5,6 +5,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import general.TestContext;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 public class AccountSteps {
 
     private TestContext test;
@@ -15,6 +17,11 @@ public class AccountSteps {
 
     @Then("^user account page is opened$")
     public void userAccountPageIsOpened() {
+        test.getNavigation().waitUntilPageLoadingIsFinished();
+
+        assertThat(test.getAccountPage().getAccountName()).isEqualTo(test.getUser().getFirstName());
+        assertThat(test.getAccountPage().getAccountLastname()).isEqualTo(test.getUser().getLastName());
+
         System.out.println("ACCOUNT CREATED!");
     }
 
