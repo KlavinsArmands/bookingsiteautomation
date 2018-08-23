@@ -8,6 +8,11 @@ import static com.codeborne.selenide.Selenide.page;
 
 public class HotelDetailsPageObject {
 
+    private SelenideElement getHotelDetails() {
+        return
+
+    }
+
     private SelenideElement getRoomsSection() {
         return $(By.id("ROOMS"));
     }

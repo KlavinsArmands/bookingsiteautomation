@@ -5,6 +5,8 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import general.TestContext;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 public class HomepageSteps {
 
     private TestContext test;
@@ -16,6 +18,9 @@ public class HomepageSteps {
     @Given("^I have opened homepage$")
     public void iHaveOpenedHomepage() {
         System.out.println("Navigation is visible");
+        test.getNavigation().waitUntilPageLoadingIsFinished();
+        assertThat(test.getNavigation().isLogoVisible()).isTrue();
+        assertThat(test.getNavigation().isMyAccountButtonVisible()).isTrue();
     }
 
     @When("^I select My account menu$")
@@ -42,4 +47,8 @@ public class HomepageSteps {
         iSelectSignUpButton();
     }
 
+    @And("^correct amount of hotels is found$")
+    public void correctAmountOfHotelsIsFound() {
+        assertThat(test.getLandingpage().selectCorrectHotel()).isEqualTo("Rendezvous Hotel Singapore");
+    }
 }

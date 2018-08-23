@@ -24,6 +24,10 @@ public class LandingPageObject {
         return $(By.xpath("//div[contains(text(), '" + location + "')]"));
     }
 
+    private SelenideElement getCorrectHotel() {
+        return $(".select2-match");
+    }
+
     private SelenideElement getCheckInDate() {
         return $("input[name='checkin']");
     }
@@ -48,6 +52,7 @@ public class LandingPageObject {
         return $("#HOTELS > form > div.col-md-2.form-group.go-right.col-xs-12.search-button > button");
     }
 
+
     public LandingPageObject selectHotelsButton(){
         getHotelsButton().click();
         return page(LandingPageObject.class);
@@ -63,6 +68,10 @@ public class LandingPageObject {
 
     public void selectHotelByLocation(String location) {
         getHotelResultMenu(location).click();
+    }
+
+    public String selectCorrectHotel() {
+        return getCorrectHotel().getText();
     }
 
 
