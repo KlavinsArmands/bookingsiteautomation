@@ -8,8 +8,7 @@ Feature: This feature is about booking hotel in a system
     And I create new account
     And user account page is opened
     When I select Home button in Navigation bar
-    #parsaukt logiskak
-    And I have opened homepage
+    And I have opened homepage while logged in
     And I select book Hotels button
     And I enter Rendezvous Hotels hotel
     And correct amount of hotels is found

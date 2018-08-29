@@ -13,9 +13,17 @@ public class ReservationConfirmationPageObject {
         return $(By.xpath("//button[contains(text(), 'CONFIRM THIS BOOKING')]"));
     }
 
+    private SelenideElement getHotelName() {
+        return $(By.xpath("//*[@id='body-section']/div[1]/div/div[2]/div[1]/div[2]/div/h6/strong"));
+    }
+
     public ReservationConfirmationPageObject selectConfirmBookingButton(){
         getConfirmBookingButton().click();
         return page(ReservationConfirmationPageObject.class);
+    }
+
+    public String getHotelNameText() {
+        return getHotelName().getText();
     }
 
 }

@@ -5,6 +5,8 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import general.TestContext;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 public class BookingSteps {
 
     private TestContext test;
@@ -40,7 +42,7 @@ public class BookingSteps {
         test.getLandingpage().enterCheckOutDate(checkout);
     }
 
-    @And("^I select ([^\\\"]*) Adult and ([^\\\"]*) Children$")
+    @And("^I select ([^\\\"]*) Adult and ([^\"]*) Children$")
     public void iSelectAdultAndChildren(String adultAmount, String childAmount) {
         test.getLandingpage().selectPeopleField();
         test.getLandingpage().enterAdultAmount(adultAmount);
@@ -53,7 +55,7 @@ public class BookingSteps {
     }
 
     @And("^I select ([^\\\"]*) room$")
-    public void iSelectJuniorSuitesRoom(String roomType) throws InterruptedException {
+    public void iSelectJuniorSuitesRoom(String roomType) {
         test.getHotelDetailsPage().scrollToRoomsSection();
         test.getHotelDetailsPage().selectBookNowButton(roomType);
     }
@@ -65,6 +67,7 @@ public class BookingSteps {
 
     @Then("^Unpaid invoice page is opened$")
     public void unpaidInvoicePageIsOpened(){
+        test.getNavigation().waitUntilPageLoadingIsFinished();
         System.out.println("INVOICE IS SENT TO YOUR MAIL. PLEASE FOLLOW THE INSTRUCTIONS.");
     }
 
@@ -81,5 +84,10 @@ public class BookingSteps {
     @And("^Booking confirmation page is opened$")
     public void bookingConfirmationPageIsOpened() {
         test.getNavigation().waitUntilPageLoadingIsFinished();
+    }
+
+    @And("^Personal data is correct$")
+    public void personalDataIsCorrect() {
+        assertThat(test.getReservationConfirmationPage().getHotelNameText()).isEqualTo("Rendezvous Hotels");
     }
 }

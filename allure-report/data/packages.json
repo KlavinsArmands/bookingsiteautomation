@@ -1,0 +1,65 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "This feature is about booking hotel in a system",
+    "children" : [ {
+      "name" : "Successful booking",
+      "uid" : "aad9f46b31999ea4",
+      "parentUid" : "21807b2a25633526e7ae78edda91819f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1535543029656,
+        "stop" : 1535543067080,
+        "duration" : 37424
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "21807b2a25633526e7ae78edda91819f"
+  }, {
+    "name" : "This feature is about logging in into the system",
+    "children" : [ {
+      "name" : "Successful login",
+      "uid" : "64c54e2f91c0c24a",
+      "parentUid" : "04eb3d081230ac591a19e09d3698b67d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535543067451,
+        "stop" : 1535543086171,
+        "duration" : 18720
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "04eb3d081230ac591a19e09d3698b67d"
+  }, {
+    "name" : "This feature is about creating new account in the system",
+    "children" : [ {
+      "name" : "Successful sign-up",
+      "uid" : "45c7b4a53499042b",
+      "parentUid" : "680bbd8f29fb398bb91cc2d3e2e1b0f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535543086189,
+        "stop" : 1535543098693,
+        "duration" : 12504
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Unsuccessful sing-up",
+      "uid" : "e70a67df48e3602f",
+      "parentUid" : "680bbd8f29fb398bb91cc2d3e2e1b0f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535543098705,
+        "stop" : 1535543111986,
+        "duration" : 13281
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "680bbd8f29fb398bb91cc2d3e2e1b0f5"
+  } ]
+}

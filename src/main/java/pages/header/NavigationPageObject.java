@@ -71,6 +71,10 @@ public class NavigationPageObject {
         return page(AccountPageObject.class);
     }
 
+    public boolean isUserAccountButtonVisible(String username) {
+        return getUserAccountButton(username).isDisplayed();
+    }
+
     public AccountPageObject selectHomeButton() throws InterruptedException {
         Thread.sleep(1000);
         getHomeButton().click();

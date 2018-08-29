@@ -23,6 +23,14 @@ public class HomepageSteps {
         assertThat(test.getNavigation().isMyAccountButtonVisible()).isTrue();
     }
 
+    @And("^I have opened homepage while logged in$")
+    public void iHaveOpenedHomepageWhileLoggedIn() {
+        System.out.println("Navigation is visible");
+        test.getNavigation().waitUntilPageLoadingIsFinished();
+        assertThat(test.getNavigation().isLogoVisible()).isTrue();
+        assertThat(test.getNavigation().isUserAccountButtonVisible(test.getUser().getFirstName())).isTrue();
+    }
+
     @When("^I select My account menu$")
     public void iSelectMyAccountMenu() {
         test.getNavigation().selectMyAccountButton();
@@ -49,6 +57,8 @@ public class HomepageSteps {
 
     @And("^correct amount of hotels is found$")
     public void correctAmountOfHotelsIsFound() {
-        assertThat(test.getLandingpage().selectCorrectHotel()).isEqualTo("Rendezvous Hotel Singapore");
+        test.getLandingpage().waitUntilSearchResultsAreDisplayed();
+
+        assertThat(test.getLandingpage().getSearchResultCount()).isEqualTo(1);
     }
 }
