@@ -9,8 +9,7 @@ import static com.codeborne.selenide.Selenide.page;
 public class HotelDetailsPageObject {
 
     private SelenideElement getHotelDetails() {
-        return
-
+        return $("input[name='checkin']");
     }
 
     private SelenideElement getRoomsSection() {

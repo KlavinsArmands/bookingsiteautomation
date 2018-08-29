@@ -1,0 +1,81 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "This feature is about booking hotel in a system",
+    "children" : [ {
+      "name" : "Successful booking",
+      "children" : [ {
+        "name" : "Successful booking",
+        "uid" : "aad9f46b31999ea4",
+        "parentUid" : "de8b4511730e613298eee4990219557a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1535543029656,
+          "stop" : 1535543067080,
+          "duration" : 37424
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de8b4511730e613298eee4990219557a"
+    } ],
+    "uid" : "37f34c0428f40f5261aa25c6e0a37daf"
+  }, {
+    "name" : "This feature is about logging in into the system",
+    "children" : [ {
+      "name" : "Successful login",
+      "children" : [ {
+        "name" : "Successful login",
+        "uid" : "64c54e2f91c0c24a",
+        "parentUid" : "bcd2b99912330bf0db65091d10082155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1535543067451,
+          "stop" : 1535543086171,
+          "duration" : 18720
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bcd2b99912330bf0db65091d10082155"
+    } ],
+    "uid" : "87c4d21d77ed55d0d01aaa92e28a1550"
+  }, {
+    "name" : "This feature is about creating new account in the system",
+    "children" : [ {
+      "name" : "Successful sign-up",
+      "children" : [ {
+        "name" : "Successful sign-up",
+        "uid" : "45c7b4a53499042b",
+        "parentUid" : "7368ac7d83b76778daa020bfe483f8cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1535543086189,
+          "stop" : 1535543098693,
+          "duration" : 12504
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7368ac7d83b76778daa020bfe483f8cf"
+    }, {
+      "name" : "Unsuccessful sing-up",
+      "children" : [ {
+        "name" : "Unsuccessful sing-up",
+        "uid" : "e70a67df48e3602f",
+        "parentUid" : "0bfb1dc2e0acfeefffd79432afa4572a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1535543098705,
+          "stop" : 1535543111986,
+          "duration" : 13281
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0bfb1dc2e0acfeefffd79432afa4572a"
+    } ],
+    "uid" : "111e12146bfbef03ec4455b3429af0df"
+  } ]
+}

@@ -1,9 +1,12 @@
 package pages.landingpage;
 
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.$$;
 import static com.codeborne.selenide.Selenide.page;
 
 public class LandingPageObject {
@@ -17,15 +20,19 @@ public class LandingPageObject {
     }
 
     private SelenideElement getHotelInputField() {
-        return $("#s2id_autogen9");
+        return $(By.xpath("//div[@id = 'select2-drop']/descendant::input"));
     }
 
     private SelenideElement getHotelResultMenu(String location) {
         return $(By.xpath("//div[contains(text(), '" + location + "')]"));
     }
 
-    private SelenideElement getCorrectHotel() {
-        return $(".select2-match");
+    private SelenideElement getSearchResult() {
+        return $(".select2-result-selectable");
+    }
+
+    private ElementsCollection getSearchResultList() {
+        return $$(".select2-result-selectable");
     }
 
     private SelenideElement getCheckInDate() {
@@ -70,10 +77,9 @@ public class LandingPageObject {
         getHotelResultMenu(location).click();
     }
 
-    public String selectCorrectHotel() {
-        return getCorrectHotel().getText();
+    public int getSearchResultCount() {
+        return getSearchResultList().size();
     }
-
 
     public void enterCheckInDate(String checkin){
         getCheckInDate().sendKeys(checkin);
@@ -101,6 +107,10 @@ public class LandingPageObject {
     public LandingPageObject selectSearchButton(){
         getSearchButton().click();
         return page(LandingPageObject.class);
+    }
+
+    public void waitUntilSearchResultsAreDisplayed() {
+        getSearchResult().waitUntil(Condition.visible, 5000);
     }
 
 }
