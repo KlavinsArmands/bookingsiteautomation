@@ -6,8 +6,20 @@
     "children" : [ {
       "name" : "15256@DESKTOP-Q1TBU05.main(1)",
       "children" : [ {
+        "name" : "Successful booking",
+        "uid" : "d3f90cb434ad75d1",
+        "parentUid" : "163636f5398fa34dffdf0520cd86376a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1535543029656,
+          "stop" : 1535543067080,
+          "duration" : 37424
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "Successful sign-up",
-        "uid" : "45c7b4a53499042b",
+        "uid" : "a266d8b9462b785d",
         "parentUid" : "163636f5398fa34dffdf0520cd86376a",
         "status" : "passed",
         "time" : {
@@ -19,7 +31,7 @@
         "parameters" : [ ]
       }, {
         "name" : "Successful login",
-        "uid" : "64c54e2f91c0c24a",
+        "uid" : "314329f9d4fd8e04",
         "parentUid" : "163636f5398fa34dffdf0520cd86376a",
         "status" : "passed",
         "time" : {
@@ -30,20 +42,8 @@
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Successful booking",
-        "uid" : "aad9f46b31999ea4",
-        "parentUid" : "163636f5398fa34dffdf0520cd86376a",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1535543029656,
-          "stop" : 1535543067080,
-          "duration" : 37424
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Unsuccessful sing-up",
-        "uid" : "e70a67df48e3602f",
+        "uid" : "63124b720130bb6c",
         "parentUid" : "163636f5398fa34dffdf0520cd86376a",
         "status" : "passed",
         "time" : {

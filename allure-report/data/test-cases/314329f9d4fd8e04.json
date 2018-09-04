@@ -1,5 +1,5 @@
 {
-  "uid" : "64c54e2f91c0c24a",
+  "uid" : "314329f9d4fd8e04",
   "name" : "Successful login",
   "historyId" : "7adb2ce3f0c54c1217a418d00bdf1cb8",
   "time" : {
@@ -23,10 +23,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "before",
       "time" : {
@@ -38,10 +38,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Given  I have opened homepage",
       "time" : {
@@ -53,10 +53,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  I navigate to Signup page",
       "time" : {
@@ -68,10 +68,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  Sign Up page is opened",
       "time" : {
@@ -83,10 +83,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  I create new account",
       "time" : {
@@ -98,10 +98,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  I select User Account button",
       "time" : {
@@ -113,10 +113,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  I select logout",
       "time" : {
@@ -128,10 +128,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "When  I select My account menu",
       "time" : {
@@ -143,10 +143,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  I select Login button",
       "time" : {
@@ -158,10 +158,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  Login page is opened",
       "time" : {
@@ -173,10 +173,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  I enter login Email address",
       "time" : {
@@ -188,10 +188,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  I enter login Password",
       "time" : {
@@ -203,10 +203,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  I select final Login button",
       "time" : {
@@ -218,10 +218,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Then  user account page is opened",
       "time" : {
@@ -233,10 +233,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "after",
       "time" : {
@@ -248,17 +248,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 16,
-    "hasContent" : true
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 16
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -296,6 +296,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "64c54e2f91c0c24a.json",
+  "source" : "314329f9d4fd8e04.json",
   "parameterValues" : [ ]
 }

@@ -1,5 +1,5 @@
 {
-  "uid" : "e70a67df48e3602f",
+  "uid" : "63124b720130bb6c",
   "name" : "Unsuccessful sing-up",
   "historyId" : "f7fc2e6d4764a974ca6092c0243ca42c",
   "time" : {
@@ -23,10 +23,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "before",
       "time" : {
@@ -38,10 +38,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Given  I have opened homepage",
       "time" : {
@@ -53,10 +53,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "When  I select My account menu",
       "time" : {
@@ -68,10 +68,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  I select Sign up button",
       "time" : {
@@ -83,10 +83,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  Sign Up page is opened",
       "time" : {
@@ -98,10 +98,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  I select Sign up button in Sign up page",
       "time" : {
@@ -113,10 +113,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Then  error messages are displayed",
       "time" : {
@@ -128,10 +128,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And  Sign Up page is opened",
       "time" : {
@@ -143,10 +143,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "after",
       "time" : {
@@ -158,17 +158,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 10,
-    "hasContent" : true
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 10
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -206,6 +206,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e70a67df48e3602f.json",
+  "source" : "63124b720130bb6c.json",
   "parameterValues" : [ ]
 }

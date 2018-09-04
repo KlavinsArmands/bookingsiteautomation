@@ -1,25 +1,5 @@
 [ {
-  "uid" : "45c7b4a53499042b",
-  "name" : "Successful sign-up",
-  "time" : {
-    "start" : 1535543086189,
-    "stop" : 1535543098693,
-    "duration" : 12504
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "64c54e2f91c0c24a",
-  "name" : "Successful login",
-  "time" : {
-    "start" : 1535543067451,
-    "stop" : 1535543086171,
-    "duration" : 18720
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aad9f46b31999ea4",
+  "uid" : "d3f90cb434ad75d1",
   "name" : "Successful booking",
   "time" : {
     "start" : 1535543029656,
@@ -29,7 +9,27 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "e70a67df48e3602f",
+  "uid" : "a266d8b9462b785d",
+  "name" : "Successful sign-up",
+  "time" : {
+    "start" : 1535543086189,
+    "stop" : 1535543098693,
+    "duration" : 12504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "314329f9d4fd8e04",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1535543067451,
+    "stop" : 1535543086171,
+    "duration" : 18720
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63124b720130bb6c",
   "name" : "Unsuccessful sing-up",
   "time" : {
     "start" : 1535543098705,
