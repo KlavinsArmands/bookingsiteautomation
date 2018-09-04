@@ -5,7 +5,7 @@
     "name" : "This feature is about booking hotel in a system",
     "children" : [ {
       "name" : "Successful booking",
-      "uid" : "aad9f46b31999ea4",
+      "uid" : "d3f90cb434ad75d1",
       "parentUid" : "b18822b21010b484169a225f6ea9490e",
       "status" : "skipped",
       "time" : {
@@ -21,7 +21,7 @@
     "name" : "This feature is about logging in into the system",
     "children" : [ {
       "name" : "Successful login",
-      "uid" : "64c54e2f91c0c24a",
+      "uid" : "314329f9d4fd8e04",
       "parentUid" : "4cc041ff0b1f8faa37e00c3da3aba361",
       "status" : "passed",
       "time" : {
@@ -37,7 +37,7 @@
     "name" : "This feature is about creating new account in the system",
     "children" : [ {
       "name" : "Successful sign-up",
-      "uid" : "45c7b4a53499042b",
+      "uid" : "a266d8b9462b785d",
       "parentUid" : "dbba6dcf28f847c8e60a6c3948755c8f",
       "status" : "passed",
       "time" : {
@@ -49,7 +49,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Unsuccessful sing-up",
-      "uid" : "e70a67df48e3602f",
+      "uid" : "63124b720130bb6c",
       "parentUid" : "dbba6dcf28f847c8e60a6c3948755c8f",
       "status" : "passed",
       "time" : {

@@ -13,6 +13,7 @@ import pages.signup.SignUpPageObject;
 @Data
 public class TestContext {
     private User user;
+    private Booking booking;
     private AccountPageObject accountPage;
     private NavigationPageObject navigation;
     private LandingPageObject landingpage;
@@ -23,6 +24,7 @@ public class TestContext {
 
     public TestContext() {
         this.user = new User();
+        this.booking = new Booking();
         this.accountPage = new AccountPageObject();
         this.navigation = new NavigationPageObject();
         this.landingpage = new LandingPageObject();

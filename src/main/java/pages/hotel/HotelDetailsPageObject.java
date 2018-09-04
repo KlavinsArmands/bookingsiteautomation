@@ -1,6 +1,7 @@
 package pages.hotel;
 
 import com.codeborne.selenide.SelenideElement;
+import general.TestContext;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
@@ -8,8 +9,18 @@ import static com.codeborne.selenide.Selenide.page;
 
 public class HotelDetailsPageObject {
 
-    private SelenideElement getHotelDetails() {
-        return $("input[name='checkin']");
+    private SelenideElement getCheckinDate() {
+        return $(By.xpath("//label[contains(text(), 'Check in')]//following-sibling::input"));
+    }
+
+    private SelenideElement getCheckoutDate() {
+        return $(By.xpath("//label[contains(text(), 'Check out')]//following-sibling::input"));
+    }
+    private SelenideElement getAmountOfAdults(){
+        return $("[id=adults]");
+    }
+    private SelenideElement getAmountOfChildren(){
+        return $("[id=child]");
     }
 
     private SelenideElement getRoomsSection() {
@@ -29,5 +40,22 @@ public class HotelDetailsPageObject {
         getBookNowButton(roomType).click();
         return page(ReservationConfirmationPageObject.class);
     }
+
+    public String getCheckinDateText() {
+        return getCheckinDate().getValue();
+    }
+
+    public String getCheckoutDateText() {
+        return getCheckoutDate().getValue();
+    }
+
+    public String getAmountOfAdultsText() {
+        return getAmountOfAdults().getValue();
+    }
+
+    public String getAmountOfChildrenText() {
+        return getAmountOfChildren().getValue();
+    }
+
 
 }

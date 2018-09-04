@@ -78,7 +78,10 @@ public class BookingSteps {
 
     @And("^Hotel details are correct$")
     public void hotelDetailsAreCorrect() {
-
+        assertThat(test.getHotelDetailsPage().getCheckinDateText()).isEqualTo("01.09.2018");
+        assertThat(test.getHotelDetailsPage().getCheckoutDateText()).isEqualTo("07.09.2018");
+        assertThat(test.getHotelDetailsPage().getAmountOfAdultsText()).isEqualTo("2");
+        assertThat(test.getHotelDetailsPage().getAmountOfChildrenText()).isEqualTo("2");
     }
 
     @And("^Booking confirmation page is opened$")

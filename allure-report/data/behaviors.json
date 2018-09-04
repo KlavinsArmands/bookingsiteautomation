@@ -7,7 +7,7 @@
       "name" : "Successful booking",
       "children" : [ {
         "name" : "Successful booking",
-        "uid" : "aad9f46b31999ea4",
+        "uid" : "d3f90cb434ad75d1",
         "parentUid" : "de8b4511730e613298eee4990219557a",
         "status" : "skipped",
         "time" : {
@@ -27,7 +27,7 @@
       "name" : "Successful login",
       "children" : [ {
         "name" : "Successful login",
-        "uid" : "64c54e2f91c0c24a",
+        "uid" : "314329f9d4fd8e04",
         "parentUid" : "bcd2b99912330bf0db65091d10082155",
         "status" : "passed",
         "time" : {
@@ -47,7 +47,7 @@
       "name" : "Successful sign-up",
       "children" : [ {
         "name" : "Successful sign-up",
-        "uid" : "45c7b4a53499042b",
+        "uid" : "a266d8b9462b785d",
         "parentUid" : "7368ac7d83b76778daa020bfe483f8cf",
         "status" : "passed",
         "time" : {
@@ -63,7 +63,7 @@
       "name" : "Unsuccessful sing-up",
       "children" : [ {
         "name" : "Unsuccessful sing-up",
-        "uid" : "e70a67df48e3602f",
+        "uid" : "63124b720130bb6c",
         "parentUid" : "0bfb1dc2e0acfeefffd79432afa4572a",
         "status" : "passed",
         "time" : {
